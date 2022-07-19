@@ -38,6 +38,37 @@
   font-size: 48px;
 }
 
+.rodape {
+  text-align: center;
+  margin: 0 5em;
+}
+.rodape .rodape__logo {
+  margin: 14.5em 0 3em 0;
+}
+.rodape .rodape__lista {
+  display: flex;
+  justify-content: center;
+}
+.rodape .rodape__lista .lista__link {
+  margin-left: 1em;
+}
+.rodape .rodape__lista .lista__link a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+.rodape .rodape__lista .lista__link a:hover {
+  color: #167bf7;
+}
+.rodape .rodape__lista .lista__link a:active {
+  color: #C0C0C0;
+}
+.rodape .rodape__text {
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 2em 0;
+}
+
 * {
   margin: 0;
   padding: 0;

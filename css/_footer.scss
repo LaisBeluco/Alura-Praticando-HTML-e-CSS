@@ -1,0 +1,31 @@
+.rodape {
+  text-align: center;
+  margin: 0 5em;
+  .rodape__logo{
+    margin: 14.5em 0 3em 0;
+  }
+
+  .rodape__lista {
+    display: flex;
+    justify-content: center;
+    .lista__link {
+      margin-left: 1em;
+      a {
+        text-decoration: none;
+        color: $text-color-white;
+        font-size: 16px;
+      }
+      a:hover{
+        color: $button-color;
+      }
+      a:active{
+        color: $text-color-cinza;
+      }
+    }
+  }
+  .rodape__text {
+    font-size: 14px;
+    color: $text-color-cinza;
+    margin: 2em 0;
+  }
+}
