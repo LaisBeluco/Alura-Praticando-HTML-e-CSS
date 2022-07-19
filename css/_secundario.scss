@@ -1,0 +1,17 @@
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+  .secundario__imagem {
+    width: 90%;
+  }
+  .container__descricao{
+    .descricao__titulo{
+      font-weight: 700;
+      font-size: 48px;
+      margin-bottom: 0.1em;
+    }
+    .descricao__text{
+      color: $text-color-cinza;
+    }
+  }
+}

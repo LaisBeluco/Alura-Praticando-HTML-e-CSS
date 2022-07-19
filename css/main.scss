@@ -1,4 +1,5 @@
 @import "../css/variaveis";
+@import "../css/secundario";
 
 * {
   margin: 0;
@@ -7,18 +8,57 @@
 
 body {
   background-color: $color-black;
+  font-family: $font-principal;
+  color: $text-color-white;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .principal {
   background-image: url(/img/Background.png);
   background-repeat: no-repeat;
   background-size: contain;
-  h1 {
+  align-items: center;
+  text-align: center;
+
+  .container__caixa {
+    margin: 0 6em;
+  }
+
+  .container__titulo {
+    font-size: 28px;
     color: $text-color-white;
+    font-weight: 700;
+  }
+
+  .container__imagem {
+    margin: 1em 0 2em 0;
+  }
+
+  .container__botao {
+    background-color: $button-color;
+    border-radius: 5px;
+    padding: 1em;
+    color: $text-color-white;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+  }
+
+  .botao_secundario {
+    background-color: transparent;
+    border: 2px solid $text-color-white;
+  }
+
+  .container__aviso {
+    color: $text-color-white;
+    font-size: 12px;
+    color: $text-color-cinza;
   }
 }
 
 .container {
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   height: 100vh;
 }
