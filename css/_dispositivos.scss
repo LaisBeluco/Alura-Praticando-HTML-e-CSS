@@ -1,0 +1,16 @@
+.dispositivos {
+  text-align: center;
+  .dispositivos__lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4em 0;
+    .lista__item {
+      font-size: 32px;
+      color: $text-color-white;
+    }
+  }
+  .dispositivos__titulo {
+    font-size: 48px;
+  }
+}

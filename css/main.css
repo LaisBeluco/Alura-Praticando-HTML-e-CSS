@@ -21,6 +21,23 @@
   margin-top: 1em;
 }
 
+.dispositivos {
+  text-align: center;
+}
+.dispositivos .dispositivos__lista {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4em 0;
+}
+.dispositivos .dispositivos__lista .lista__item {
+  font-size: 32px;
+  color: #ffffff;
+}
+.dispositivos .dispositivos__titulo {
+  font-size: 48px;
+}
+
 * {
   margin: 0;
   padding: 0;
