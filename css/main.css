@@ -5,6 +5,9 @@
 .secundario .secundario__imagem {
   width: 90%;
 }
+.secundario .container__descricao {
+  padding-right: 2em;
+}
 .secundario .container__descricao .descricao__titulo {
   font-weight: 700;
   font-size: 48px;
@@ -12,6 +15,10 @@
 }
 .secundario .container__descricao .descricao__text {
   color: #C0C0C0;
+}
+.secundario .container__descricao .botao-combo {
+  display: inline-block;
+  margin-top: 1em;
 }
 
 * {
@@ -45,15 +52,6 @@ body {
 .principal .container__imagem {
   margin: 1em 0 2em 0;
 }
-.principal .container__botao {
-  background-color: #167bf7;
-  border-radius: 5px;
-  padding: 1em;
-  color: #ffffff;
-  display: block;
-  text-decoration: none;
-  margin-bottom: 1em;
-}
 .principal .botao_secundario {
   background-color: transparent;
   border: 2px solid #ffffff;
@@ -68,4 +66,14 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100vh;
+}
+
+.container__botao {
+  background-color: #167bf7;
+  border-radius: 5px;
+  padding: 1em;
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 1em;
 }/*# sourceMappingURL=main.css.map */

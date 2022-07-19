@@ -35,16 +35,6 @@ body {
     margin: 1em 0 2em 0;
   }
 
-  .container__botao {
-    background-color: $button-color;
-    border-radius: 5px;
-    padding: 1em;
-    color: $text-color-white;
-    display: block;
-    text-decoration: none;
-    margin-bottom: 1em;
-  }
-
   .botao_secundario {
     background-color: transparent;
     border: 2px solid $text-color-white;
@@ -61,4 +51,14 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100vh;
+}
+
+.container__botao {
+  background-color: $button-color;
+  border-radius: 5px;
+  padding: 1em;
+  color: $text-color-white;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 1em;
 }

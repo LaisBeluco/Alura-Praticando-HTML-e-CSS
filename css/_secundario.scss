@@ -4,14 +4,19 @@
   .secundario__imagem {
     width: 90%;
   }
-  .container__descricao{
-    .descricao__titulo{
+  .container__descricao {
+    padding-right: 2em;
+    .descricao__titulo {
       font-weight: 700;
       font-size: 48px;
       margin-bottom: 0.1em;
     }
-    .descricao__text{
+    .descricao__text {
       color: $text-color-cinza;
+    }
+    .botao-combo {
+      display: inline-block;
+      margin-top: 1em;
     }
   }
 }
